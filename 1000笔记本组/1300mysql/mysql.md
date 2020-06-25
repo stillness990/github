@@ -62,3 +62,7 @@ CREATE TABLE <表名>
 ```
 PRIMARY KEY （列名）
 ```
+#### 更新表
+```
+ALTER TABLE <表名> ADD COLUMN <表名> <数据类型>;
+```
