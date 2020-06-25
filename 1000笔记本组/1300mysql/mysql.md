@@ -1,3 +1,4 @@
+
 1. 显示当前数据库
 ```
 SHOW DATABASES
@@ -27,4 +28,12 @@ show tables
 7. 显示某一个表的结构
 ```
 desc T_student #显示名为T_student的表
+```
+8. 创建表
+```
+CREATE TABLE Shohin
+(shohin_id CHAR(4) NOT NULL,
+shohin_mei VARCHAR(100) NOT MULL,
+shohin_burui VARCHAR(32) NOT NULL,)
+;
 ```
