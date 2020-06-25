@@ -66,3 +66,4 @@ PRIMARY KEY （列名）
 ```
 ALTER TABLE <表名> ADD COLUMN <表名> <数据类型>;
 ```
+---
