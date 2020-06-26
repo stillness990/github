@@ -51,7 +51,7 @@ desc语句不同,这两个语句意思为什么不同呢
 ```
 desc table_name
 ```
-desc table table_name
+desc table 这两个区别在哪table_name
 ```
 ```
 #### 创建表
@@ -86,6 +86,6 @@ PRIMARY KEY （列名）
 ```
 #### 更新表
 ```
-ALTER TABLE <表名> ADD COLUMN <表名> <数据类型>;
+ALTER TABLE <表名>  ADD COLUMN  <列名>  <数据类型>;
 ```
 ---
