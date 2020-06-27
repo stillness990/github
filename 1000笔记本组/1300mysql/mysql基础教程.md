@@ -89,4 +89,19 @@ PRIMARY KEY （列名）
 ```
 ALTER TABLE <表名>  ADD COLUMN  <列名>  <数据类型>;
 ```
----
+#### 插入数据
+```
+BEGIN TRANSACTION;
+INSERT INTO <表名> VALUES (`0001`,`T恤衫`,`衣服`,1000,500,`2009-09-20);
+INSERT INTO <表名> VALUES (`0002`,`打孔器`,`办公用品`,500,320,`2009-09-11`);
+COMMIT;
+```
+```
+BEGIN TRANSACTION
+```
+插入数据开头起始句
+```
+COMMIT
+```
+插入数据结束句
+
