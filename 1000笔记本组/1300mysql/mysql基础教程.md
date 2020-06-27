@@ -97,6 +97,21 @@ INSERT INTO <表名> VALUES (`0002`,`打孔器`,`办公用品`,500,320,`2009-09-
 COMMIT;
 ```
 ```
+CREATE TABLE TB1(
+mai_id INT NOT NULL,
+mai_name VARCHAR(100) NOT NULL,
+mai_gs VARCHAR(100) NOT NULL,
+mai_jg INT NOT NULL,
+mai_ib INT NOT NULL,
+mai_data DATE NOT NULL
+PRIMARY KEY (mail_id));
+```
+#### 这个踩坑的问题
+- VARCHAR 必须有数值
+- DATA 是 DATE
+- 设置关键词语的时候看清楚
+
+```
 BEGIN TRANSACTION
 ```
 插入数据开头起始句
@@ -104,4 +119,8 @@ BEGIN TRANSACTION
 COMMIT
 ```
 插入数据结束句
-
+#### SELECT语句
+```
+SELECT <列名>,
+FROM <表名>;
+```
